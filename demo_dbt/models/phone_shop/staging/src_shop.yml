@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+
+  - name: staging
+
+    database: NEWDATA
+
+    schema: MODELDATA
+
+    tables:
+
+      - name: CUSTOMER_TABLE
+      - name: ORDER_TABLE
+      - name: PRODUCT_TABLE
+      
