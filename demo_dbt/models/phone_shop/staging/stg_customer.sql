@@ -1,1 +1,1 @@
-select * from {{ source('MODELDATA','CUSTOMER_TABLE')}};
+select * from NEWDATA.MODELDATA.CUSTOMER_TABLE
